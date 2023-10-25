@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import Experience from '../Experience'
-import vertexShader from '../shaders/Sphere/vertex.glsl'
-import fragmentShader from '../shaders/Sphere/fragment.glsl'
+import vertexShader from '../Shaders/Sphere/vertex.glsl'
+import fragmentShader from '../Shaders/Sphere/fragment.glsl'
 
 export default class Sphere
 {
