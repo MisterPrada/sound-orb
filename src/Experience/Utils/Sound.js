@@ -180,8 +180,9 @@ export default class Sound extends EventEmitter
     }
 
     resize() {
-        this.spectrum.canvas.width = this.sizes.width
-        this.spectrum.context.fillStyle = '#ffffff'
+        if ( this.spectrum ) {
+            this.spectrum.canvas.width = this.sizes.width
+            this.spectrum.context.fillStyle = '#ffffff'
+        }
     }
-
 }
